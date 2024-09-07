@@ -1,0 +1,101 @@
+{
+  "_name_or_path": "microsoft/resnet-18",
+  "architectures": [
+    "ResNetForImageClassification"
+  ],
+  "depths": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "downsample_in_bottleneck": false,
+  "downsample_in_first_stage": false,
+  "embedding_size": 64,
+  "hidden_act": "relu",
+  "hidden_sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "id2label": {
+    "0": "baked_potato",
+    "1": "burger",
+    "2": "butter_naan",
+    "3": "chai",
+    "4": "chapati",
+    "5": "chole_bhature",
+    "6": "crispy_chicken",
+    "7": "dal_makhani",
+    "8": "dhokla",
+    "9": "donut",
+    "10": "fried_rice",
+    "11": "fries",
+    "12": "hot_dog",
+    "13": "idli",
+    "14": "jalebi",
+    "15": "kaathi_rolls",
+    "16": "kadai_paneer",
+    "17": "kulfi",
+    "18": "masala_dosa",
+    "19": "momos",
+    "20": "paani_puri",
+    "21": "pakode",
+    "22": "pav_bhaji",
+    "23": "pizza",
+    "24": "samosa",
+    "25": "sandwich",
+    "26": "taco",
+    "27": "taquito"
+  },
+  "label2id": {
+    "baked_potato": 0,
+    "burger": 1,
+    "butter_naan": 2,
+    "chai": 3,
+    "chapati": 4,
+    "chole_bhature": 5,
+    "crispy_chicken": 6,
+    "dal_makhani": 7,
+    "dhokla": 8,
+    "donut": 9,
+    "fried_rice": 10,
+    "fries": 11,
+    "hot_dog": 12,
+    "idli": 13,
+    "jalebi": 14,
+    "kaathi_rolls": 15,
+    "kadai_paneer": 16,
+    "kulfi": 17,
+    "masala_dosa": 18,
+    "momos": 19,
+    "paani_puri": 20,
+    "pakode": 21,
+    "pav_bhaji": 22,
+    "pizza": 23,
+    "samosa": 24,
+    "sandwich": 25,
+    "taco": 26,
+    "taquito": 27
+  },
+  "layer_type": "basic",
+  "model_type": "resnet",
+  "num_channels": 3,
+  "out_features": [
+    "stage4"
+  ],
+  "out_indices": [
+    4
+  ],
+  "problem_type": "single_label_classification",
+  "stage_names": [
+    "stem",
+    "stage1",
+    "stage2",
+    "stage3",
+    "stage4"
+  ],
+  "torch_dtype": "float32",
+  "transformers_version": "4.42.4"
+}
