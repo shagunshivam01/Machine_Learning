@@ -1,6 +1,6 @@
-# Coding Raja Technologies Internship
+# Machine Learning
 
-Welcome to the Coding Raja Technologies Internship repository! This project showcases various tasks and projects completed during the internship program, demonstrating skills in programming, problem-solving, and software development.
+Welcome to the Machine Learning repository! This project showcases various tasks and projects completed during the internship program, demonstrating skills in programming, problem-solving, and software development.
 
 ## Table of Contents
 
